@@ -1,0 +1,277 @@
+.container{
+    max-width: 1000px;
+    margin: auto; 
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;}
+    
+    
+.bg{
+    height: 600px;
+    background: url('img/bg.jpg') center center no-repeat;
+    background-size: 100% 100%;
+}
+.logo{
+    margin-top: 30px;
+}
+.menu{
+    margin-top: 35px;
+}
+#travelly{
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: #f4f3ee;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-align: center;
+}
+ header section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+}
+header section h1{
+    font-size: 3em;
+    letter-spacing: 1px;
+    color: #f4f3ee;
+    font-family: "Open Sans";
+    font-weight: 100;
+    text-align: center;
+}
+header form{
+    display: flex;
+    margin-top: 35px;
+}
+header form input{
+    width: 325px;
+    height: 33px;
+    outline: none;
+    padding-left: 15px;
+}
+header form button{
+    width: 122px;
+    height: 33px;
+    cursor: pointer;
+    outline: none;
+    background-color: #fd4f32;
+    border: none;
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+}
+header  input::placeholder{
+    font-size: 1em;
+    font-family: "Open Sans";
+    font-weight: normal;
+
+}
+
+
+#basic{
+    display: flex;
+    margin-top: 40px;
+}
+#basic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main{
+    margin-left: 15px;
+    padding-bottom: 155px;
+    position: relative;
+    
+}
+
+.work{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+ h4{
+    font-size: 1em;
+    letter-spacing: 0px;
+    color: #323232;
+    font-family: "Myriad Pro";    
+    font-weight: 600;
+    margin-left: 12px;
+  
+}   
+
+.p{
+    font-size: 0.9375em;
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    font-family: "Myriad Pro";
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.content{
+    padding-top:60px;
+}
+
+.container-2{
+    max-width: 1000px;
+    margin: auto;
+}
+.main h3{
+    font-family: "Myriad Pro";
+    font-size:0.875em; 
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-align: center;
+}
+.main p{
+    margin-top: 20px;
+    width: 204px;
+    height: 75px;
+    font-size: 0.8125em;
+    line-height: 19px;
+    color: #696969;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    padding-left: 35px;
+}
+#iki{
+    background-color: #eeeeee;
+    padding-bottom: 70px;
+}
+
+
+.exchange{
+    position: absolute;
+    bottom: 40%;
+    right: 12px;
+    color: white;
+    position: absolute;
+    font-size: 0.75em;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Myriad Pro";    
+    font-weight: 400;
+    text-align: right;
+}
+#uc{
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+
+#uc h2{
+    font-size: 3.25em;
+    letter-spacing: 2px;
+    color: #323232;
+    font-family: "Open Sans";
+    font-weight: 300;   
+    margin-top: 100px
+}
+#write{
+    display: flex;
+    margin-top: 65px;
+}
+
+#write h3{
+    font-size: 1em;
+    letter-spacing: 0px;
+    color: #323232;
+    font-family: "Montserrat";
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+#write p{
+    margin-top: 20px;
+    font-size: 0.9375em;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.about{
+    margin-left: 70px;
+}
+
+#subcribe{
+    margin-top: 80px;
+    text-align: center;
+}
+#subcribe h3{
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #323232;
+    font-family: "Open Sans";    
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#subcribe form{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+#subcribe input{
+    width: 325px;
+    height: 33px;
+    outline: none;
+    padding-left: 15px;
+    background-color: #eeeeee;
+    border: none;
+}
+#subcribe  input::placeholder{
+    font-size: 1em;
+    font-family: "Open Sans";
+    font-weight: normal;
+}
+#subcribe button{   
+    width: 122px;
+    height: 33px;
+    cursor: pointer;
+    outline: none;
+    background-color: #fd4f32;
+    border: none;
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: "Open Sans";
+
+}
+#dord{
+    background-color: #eeeeee;
+}
+#end{padding:30px 0;
+        justify-content: space-around;}
+
+#end p{
+    font-size: 0.875em;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+#end ul{
+}
+
+#end ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#end ul li a{
+    text-decoration: none;
+    font-size: 0.875em;
+    letter-spacing: 0px;
+    color: #323232;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+}
+.bg-fff{
+    background-color: #fff;
+}
